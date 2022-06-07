@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizon-Guitars</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="https://kit.fontawesome.com/e91f63f36a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="container-fluid header-cont"> <!--Header-->
+    <div class="row header-row">
+
+      <div class="col-1 d-flex header-socialM-col">  <!--Social Media Col Izquierda-->
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+
+        <div class="row">
+          <div class="col"> <!--Logo Col-->
+            <a href="../index.html"><img src="../assets/music-logo.png" alt="music logo" class="img-fluid img-logo">Click to main page</a>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="col-10 text-center header-nav"> <!--Header Main Col Centro-->
+        <h1>Horizon</h1>
+        <a class="btn btn-dark btn-lg mt-5" href="../vistas/guitar.html" role="button">Guitar</a>
+        <a class="btn btn-dark btn-lg mt-5" href="../vistas/guitar.html" role="button">Bass</a>
+        <a class="btn btn-dark btn-lg mt-5" href="../vistas/guitar.html" role="button">Fx Pedals</a>
+        <a class="btn btn-dark btn-lg mt-5" href="../vistas/guitar.html" role="button">Amps</a>
+        <a class="btn btn-dark btn-lg mt-5" href="../vistas/guitar.html" role="button">Accesories</a>
+
+                                <!--Encontrar razón por la cual no es clickeable-->
+        <div class="dropdown"> <!--Dropdown se activa a partir de los 500px-->
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Musical Gear
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item active" href="#">Action</a>Guitar</li>
+            <li><a class="dropdown-item" href="#">Another action</a>Bass</li>
+            <li><a class="dropdown-item" href="#">Something else here</a>Fx Pedals</li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a>Amps</li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="col-1 d-flex header-signin"> <!--Footer Login/Signin Col Derecha-->
+        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+  </header>
+  <main> <!--Main-->
+    
+  </main>
+
+  <footer class="container-fluid footer"> <!--Footer-->
+    <nav class="row footer-nav d-flex">
+      <div class="col-8 d-flex footer-list">
+        <a href="./vistas/findus.html" class="footer-btn">Artists</a>
+        <a href="./vistas/support.html" class="footer-btn">Horizon-Apparel</a>
+        <a href="./vistas/artists.html" class="footer-btn">Support</a>
+      </div>
+      
+      <div class="col-4 d-flex footer-p">
+        <p>Contact Us:</p>
+        <p>838.856.2747 (fax)
+          Sun Valley CA, 91272
+          8953 Pendleton St.
+          info@horizongear.com
+          800.670.6632</p>
+      </div>
+    </nav>
+  </footer>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
