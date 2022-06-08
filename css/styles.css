@@ -48,19 +48,49 @@ li {
 }
 
 @media screen and (max-width: 812px) {
+    .logo-anchor {
+        display: none;
+    }
+}
+
+.img-logo {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 512px) {
     .img-logo {
-        display:none;
+        width: 27px;
     }
 }
 /*Header Main Col Centro*/
 
 .header-nav h1 {
+    margin-top: 1rem;
     color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    animation: bounce infinite 1.5s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(25%)
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .header-nav a:hover {
     color: brown;
+    transform: scale(1.2)
 }
+
+
 /*No puedo hacer que mi dropdown sea clickeable*/
 .dropdown {
     display: none;
@@ -73,7 +103,7 @@ li {
         align-content: center;
     }
 
-    .header-nav a {
+    .header-nav>.btn {
         display: none;
     }
 }

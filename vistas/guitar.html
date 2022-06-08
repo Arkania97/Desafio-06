@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300&display=swap" rel="stylesheet">
   <title>Horizon-Guitars</title>
   <link rel="stylesheet" href="../css/styles.css">
   <script src="https://kit.fontawesome.com/e91f63f36a.js" crossorigin="anonymous"></script>
@@ -14,24 +17,25 @@
     <div class="row header-row">
 
       <div class="col-1 d-flex header-socialM-col">  <!--Social Media Col Izquierda-->
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 
-        <div class="row">
+        <div class="row logo-row">
           <div class="col logo-col"> <!--Logo Col-->
-            <a href="../index.html"><img src="../assets/music-logo.png" alt="music logo" class="img-fluid img-logo">Click to main page</a>
+            <a href="../index.html"><img src="../assets/music-logo.png" alt="music logo" class="img-logo"></a>
+            <a href="../index.html" class="logo-anchor">Click to Main Page</a>
           </div>
         </div>
       </div>
       
       <nav class="col-10 text-center header-nav"> <!--Header Main Col Centro-->
         <h1>Horizon</h1>
-        <a class="btn btn-dark btn-lg mt-5" href="guitar.html" role="button">Guitar</a>
-        <a class="btn btn-dark btn-lg mt-5" href="bass.html" role="button">Bass</a>
-        <a class="btn btn-dark btn-lg mt-5" href="fxpedals.html" role="button">Fx Pedals</a>
-        <a class="btn btn-dark btn-lg mt-5" href="amps.html" role="button">Amps</a>
-        <a class="btn btn-dark btn-lg mt-5" href="acc.html" role="button">Accesories</a>
+        <a class="btn btn-dark btn-lg mt-5 m-s" href="guitar.html" role="button">Guitar</a> m-s
+        <a class="btn btn-dark btn-lg mt-5 m-s" href="bass.html" role="button">Bass</a> m-s
+        <a class="btn btn-dark btn-lg mt-5 m-s" href="fxpedals.html" role="button">Fx Pedals</a> m-s
+        <a class="btn btn-dark btn-lg mt-5 m-s" href="amps.html" role="button">Amps</a> m-s
+        <a class="btn btn-dark btn-lg mt-5 m-s" href="acc.html" role="button">Accesories</a>
 
                                 <!--Encontrar razón por la cual no es clickeable-->
         <div class="dropdown"> <!--Dropdown se activa a partir de los 500px-->
@@ -39,9 +43,9 @@
             Musical Gear
           </button>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-            <li><a class="dropdown-item active" href="#">Action</a>Guitar</li>
-            <li><a class="dropdown-item" href="#">Another action</a>Bass</li>
-            <li><a class="dropdown-item" href="#">Something else here</a>Fx Pedals</li>
+            <li><a class="dropdown-item active" href="guitar.html">Action</a>Guitar</li>
+            <li><a class="dropdown-item" href="bass.html">Another action</a>Bass</li>
+            <li><a class="dropdown-item" href="fxpedals.html">Something else here</a>Fx Pedals</li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Separated link</a>Amps</li>
           </ul>
@@ -58,7 +62,7 @@
 
   <main class="container-fluid"> <!--Main-->
     <section class="row">
-      <div class="col d-flex card-column"> <!--Main merchandise col-->
+      <div class="col m-5 d-flex card-column"> <!--Main merchandise col-->
         <div class="card" style="width: 30rem;"> <!--Utilizo cards de BS-->
           <img src="../assets/guitar1.png" class="card-img-top" alt="...">
           <div class="card-body">
