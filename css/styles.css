@@ -165,34 +165,42 @@ li {
     font-size: 1.3rem;
     font-family: 'poppins', sans-serif;
 }
-/*
-.footer-nav p:first-child:hover {
-    color: brown;
-    transition: .4s;
-}
-*/
-.footer-btn button {
+
+.footer-btn-box p {
     width: auto;
     color: #fff;
     justify-self: center;
     border: 1px solid #fff;
 }
 
+#activate-footer-btn-box {
+    display:none
+}    
 
+.footer-btn-box{
+    background-color:rgba(90, 88, 88, 0.363);
+    width:auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+} 
 
-.footer-btn button:active::after {
-    content: 'Sun Valley CA, 91272 - 8953 Pendleton St. info@horizongear.com';
-    width:100%;
-    background-color:rgba(102, 102, 102, 0.689);
-    color: red;
+#activate-footer-btn-box:checked ~ label 
+.footer-btn-box {
+    background-color:#000;
 }
 
-/*
-.footer-p:first-child {
-    flex-direction: column;
-    align-self: end;
+.footer-btn p {
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    transition: .5s;
 }
-*/
+
+.footer-btn p:hover {
+    border-bottom: 1px solid #fff;
+}
+
 .footer-list {
     justify-content: space-around;
     align-content: center;
@@ -208,7 +216,7 @@ li {
 
 .footer-btn:hover {
     color: brown;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 920px) {

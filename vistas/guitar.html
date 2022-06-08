@@ -22,7 +22,7 @@
         <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 
         <div class="row logo-row">
-          <div class="col logo-col"> <!--Logo Col-->
+          <div class="col logo-col text-center"> <!--Logo Col-->
             <a href="../index.html"><img src="../assets/music-logo.png" alt="music logo" class="img-logo"></a>
             <a href="../index.html" class="logo-anchor">Click to Main Page</a>
           </div>
@@ -31,11 +31,11 @@
       
       <nav class="col-10 text-center header-nav"> <!--Header Main Col Centro-->
         <h1>Horizon</h1>
-        <a class="btn btn-dark btn-lg mt-5 m-s" href="guitar.html" role="button">Guitar</a> m-s
-        <a class="btn btn-dark btn-lg mt-5 m-s" href="bass.html" role="button">Bass</a> m-s
-        <a class="btn btn-dark btn-lg mt-5 m-s" href="fxpedals.html" role="button">Fx Pedals</a> m-s
-        <a class="btn btn-dark btn-lg mt-5 m-s" href="amps.html" role="button">Amps</a> m-s
-        <a class="btn btn-dark btn-lg mt-5 m-s" href="acc.html" role="button">Accesories</a>
+        <a class="btn btn-dark btn-lg mt-5 mx-3" href="guitar.html" role="button">Guitar</a> m-s
+        <a class="btn btn-dark btn-lg mt-5 mx-3" href="bass.html" role="button">Bass</a> m-s
+        <a class="btn btn-dark btn-lg mt-5 mx-3" href="fxpedals.html" role="button">Fx Pedals</a> m-s
+        <a class="btn btn-dark btn-lg mt-5 mx-3" href="amps.html" role="button">Amps</a> m-s
+        <a class="btn btn-dark btn-lg mt-5 mx-3" href="acc.html" role="button">Accesories</a>
 
                                 <!--Encontrar razón por la cual no es clickeable-->
         <div class="dropdown"> <!--Dropdown se activa a partir de los 500px-->
@@ -52,7 +52,7 @@
         </div>
       </nav>
       
-      <div class="col-1 d-flex header-signin"> <!--Footer Login/Signin Col Derecha-->
+      <div class="col-1 d-flex header-signin"> <!--Header Login/Signin Col Derecha-->
         <i class="fa-solid fa-arrow-right-to-bracket"></i>
         <i class="fa-solid fa-user"></i>
       </div>
@@ -122,21 +122,25 @@
     
   </main>
 
-  <footer class="container-fluid footer"> <!--Footer-->
-    <nav class="row d-flex footer-nav">
+  <footer class="container-fluid footer"> <!--footer-->
+    <nav class="row footer-nav d-flex">
       <div class="col-8 d-flex footer-list">
         <a href="./vistas/findus.html" class="footer-btn">Artists</a>
         <a href="./vistas/support.html" class="footer-btn">Horizon-Apparel</a>
         <a href="./vistas/artists.html" class="footer-btn">Support</a>
       </div>
       
-      <div class="col-4 d-flex footer-p">
-        <p>Contact Us:</p>
-        <p>838.856.2747 (fax)
-          Sun Valley CA, 91272
-          8953 Pendleton St.
-          info@horizongear.com
-          800.670.6632</p>
+      <div class="col-sm-1 mt-2 d-flex footer-btn">
+        <input type="checkbox" id="activate-footer-btn-box">
+        <label for="activate-footer-btn-box">
+          <p>Contact Us:</p>
+         <div class="footer-btn-box text-center">
+            Sun Valley CA, 91272
+            8953 Pendleton St.
+            info@horizongear.com
+          </div>
+       </label>
+        </div>
       </div>
     </nav>
   </footer>
