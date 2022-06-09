@@ -288,3 +288,7 @@ background-size: cover;
     flex-direction:column;
     justify-content: end;
 }
+
+.card-body a {
+    font-size: 1.5rem;
+}
